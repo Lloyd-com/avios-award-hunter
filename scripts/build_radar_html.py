@@ -557,6 +557,7 @@ code, pre, .mono {
     </div>
     <div class="header-actions">
       <button class="btn" id="themeToggleBtn">切换深浅主题</button>
+      <a class="btn" href="https://github.com/Lloyd-com/avios-award-hunter/actions/workflows/update-radar.yml" target="_blank" rel="noopener">🔄 云端刷新数据 (Actions) ↗</a>
       <a class="btn btn-primary" href="https://www.finnair.com/en/book-flights-with-avios" target="_blank" rel="noopener">打开芬航 Avios 订票官网 ↗</a>
     </div>
   </header>
@@ -1082,5 +1083,6 @@ session_out.parent.mkdir(parents=True, exist_ok=True)
 session_out.write_text(final_html, encoding="utf-8")
 
 print(f"Generated {out_path} ({len(final_html):,} bytes) and copied to session files.")
+
 
 
