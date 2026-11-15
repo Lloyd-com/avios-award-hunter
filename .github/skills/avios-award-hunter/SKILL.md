@@ -76,3 +76,16 @@ python "C:\Users\yangrun\.copilot\skills\avios-award-hunter\scripts\build_radar_
 - **汇丰香港 RewardCash (RC) 转点**：
   - **卓越理财 Mastercard (`1 RC = 15 Avios`)**：仅支持转入 **英国航空 (BA)**，带 `*` 批处理通常需 **2–5 个工作日**（官方写最多 2 周），到账 BA 后可 1 秒转入芬航或卡航。
   - **EveryMile 卡 (`1 RC = 20 Avios`)**：支持直转芬航 Plus / 卡航（实时到账）或英航。
+
+---
+
+## 5. 卡塔尔航空 (Qatar Airways) 联程锁舱 (Married Segment) 重大盲区与分段破局法
+
+通过 Chrome 登录态实测卡航官方 `/dapi/public/bff/web/flight-search/award-fare-calendars` 接口发现：
+1. **卡航对 `PVG ⇄ 欧洲 (CDG/MAD/FCO/FRA/LHR)` 实施了严格的联程锁舱（Married Segment Control）**：
+   - 直接搜 `PVG → CDG` 或 `PVG → MAD` 联程时，哪怕提前 360 天（或明年 4 月）也会返回 **0 张标准票**；且 `PVG ⇄ DOH` 的商务舱库存对阿拉斯加航空完全屏蔽。
+2. **分段单搜 `PVG ⇄ DOH` + `DOH ⇄ CDG/MAD` 则库存极其充裕（含 2027年4月 及 T-360 首发窗口）**：
+   - **第一段 `PVG ⇄ DOH`（卡航直飞 Qsuite）**：Off-Peak 标准价 **`60,000 Avios / 人`**（2人 `120,000 Avios`），2027年4月去程有 12 天（`04-05` 至 `04-15`、`04-22`）、回程有 16 天，T-360 窗口几乎天天有 ≥2 张！
+   - **第二段 `DOH ⇄ CDG / MAD`（卡航直飞 A380 / Qsuite）**：Off-Peak 标准价 **`43,000 Avios / 人`**（2人 `86,000 Avios`），全年几乎天天有 ≥2 张！
+   - **分段兑换总成本**：`60,000 + 43,000 = 103,000 Avios / 人 / 单程`（虽然比联程 80,000 Avios 贵 23,000 Avios，但能绕开联程锁死、100% 当场锁定双人 Qsuite + A380 商务舱，或可用 `Multi-city` 多程搜索尝试合并出票以直挂行李）。
+
