@@ -1,0 +1,293 @@
+{
+  "PVG-HEL|2026-12-09": {
+    "ops": [
+      "HEL\n\nJL 86, JL 47 — Operated by Japan Airlines: PVG to HND, HND to HEL",
+      "HEL\n\nJL 80, JL 47 — Operated by Japan Airlines: PVG to HND, HND to HEL"
+    ],
+    "pts": 75000,
+    "tax": 42.7
+  },
+  "PVG-HEL|2027-01-18": {
+    "ops": [
+      "HEL\n\nJL 86, JL 47 — Operated by Japan Airlines: PVG to HND, HND to HEL",
+      "HEL\n\nJL 80, JL 47 — Operated by Japan Airlines: PVG to HND, HND to HEL"
+    ],
+    "pts": 75000,
+    "tax": 42.7
+  },
+  "PVG-HEL|2027-01-20": {
+    "ops": [
+      "HEL\n\nJL 86, JL 47 — Operated by Japan Airlines: PVG to HND, HND to HEL",
+      "HEL\n\nJL 80, JL 47 — Operated by Japan Airlines: PVG to HND, HND to HEL"
+    ],
+    "pts": 75000,
+    "tax": 42.7
+  },
+  "PVG-HEL|2027-09-03": {
+    "ops": [
+      "HEL\n\nAY 88 — Operated by Finnair"
+    ],
+    "pts": 60000,
+    "tax": 33.5
+  },
+  "HEL-PVG|2027-01-26": {
+    "ops": [
+      "PVG\n\nJL 48, JL 89 — Operated by Japan Airlines: HEL to HND, HND to PVG"
+    ],
+    "pts": 75000,
+    "tax": 51.4
+  },
+  "HEL-PVG|2027-03-11": {
+    "ops": [
+      "PVG\n\nAY 87 — Operated by Finnair"
+    ],
+    "pts": 60000,
+    "tax": 42.2
+  },
+  "PVG-CDG|2027-01-25": {
+    "ops": [
+      "CDG\n\nBA 168, BA 322 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nBA 168, BA 300 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nBA 168, BA 308 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nBA 168, BA 310 — Operated by British Airways: PVG to LHR, LHR to CDG"
+    ],
+    "pts": 130000,
+    "tax": 80.8
+  },
+  "PVG-CDG|2027-02-10": {
+    "ops": [
+      "CDG\n\nMH 389, MH 20 — Operated by Malaysia Airlines: PVG to KUL, KUL to CDG"
+    ],
+    "pts": 130000,
+    "tax": 43.8
+  },
+  "PVG-CDG|2027-02-16": {
+    "ops": [
+      "CDG\n\nBA 168, BA 322 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nBA 168, BA 302 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nBA 168, BA 308 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nBA 168, BA 310 — Operated by British Airways: PVG to LHR, LHR to CDG"
+    ],
+    "pts": 130000,
+    "tax": 43.8
+  },
+  "PVG-CDG|2027-02-17": {
+    "ops": [
+      "CDG\n\nBA 168, BA 322 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nBA 168, BA 314 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nBA 168, BA 318 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nMH 389, MH 20 — Operated by Malaysia Airlines: PVG to KUL, KUL to CDG"
+    ],
+    "pts": 130000,
+    "tax": 43.8
+  },
+  "PVG-CDG|2027-02-24": {
+    "ops": [
+      "CDG\n\nBA 168, BA 322 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nBA 168, BA 302 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nBA 168, BA 304 — Operated by British Airways: PVG to LHR, LHR to CDG",
+      "CDG\n\nBA 168, BA 310 — Operated by British Airways: PVG to LHR, LHR to CDG"
+    ],
+    "pts": 130000,
+    "tax": 43.8
+  },
+  "PVG-CDG|2027-06-08": {
+    "ops": [
+      "CDG\n\nAY 88, AY 1571 — Operated by Finnair: PVG to HEL, HEL to CDG",
+      "CDG\n\nAY 88 — Operated by Finnair: PVG to HEL",
+      "AY 1575 — Operated by Nordic Reg For Finnair: HEL to CDG",
+      "CDG\n\nAY 88, AY 1577 — Operated by Finnair: PVG to HEL, HEL to CDG"
+    ],
+    "pts": 130000,
+    "tax": 43.8
+  },
+  "PVG-CDG|2027-07-06": {
+    "ops": [
+      "CDG\n\nAY 88, AY 1571 — Operated by Finnair: PVG to HEL, HEL to CDG",
+      "CDG\n\nAY 88 — Operated by Finnair: PVG to HEL",
+      "AY 1575 — Operated by Nordic Reg For Finnair: HEL to CDG",
+      "CDG\n\nAY 88, AY 1577 — Operated by Finnair: PVG to HEL, HEL to CDG"
+    ],
+    "pts": 130000,
+    "tax": 43.8
+  },
+  "PVG-CDG|2027-07-13": {
+    "ops": [
+      "CDG\n\nAY 88, AY 1571 — Operated by Finnair: PVG to HEL, HEL to CDG",
+      "CDG\n\nAY 88 — Operated by Finnair: PVG to HEL",
+      "AY 1575 — Operated by Nordic Reg For Finnair: HEL to CDG",
+      "CDG\n\nAY 88, AY 1577 — Operated by Finnair: PVG to HEL, HEL to CDG"
+    ],
+    "pts": 130000,
+    "tax": 43.8
+  },
+  "PVG-CDG|2027-07-28": {
+    "ops": [
+      "CDG\n\nAY 88, AY 1571 — Operated by Finnair: PVG to HEL, HEL to CDG",
+      "CDG\n\nAY 88 — Operated by Finnair: PVG to HEL",
+      "AY 1575 — Operated by Nordic Reg For Finnair: HEL to CDG",
+      "CDG\n\nAY 88, AY 1577 — Operated by Finnair: PVG to HEL, HEL to CDG"
+    ],
+    "pts": 130000,
+    "tax": 43.8
+  },
+  "PVG-CDG|2027-09-20": {
+    "ops": [
+      "CDG\n\nMH 387, MH 20 — Operated by Malaysia Airlines: PVG to KUL, KUL to CDG"
+    ],
+    "pts": 130000,
+    "tax": 80.8
+  },
+  "PVG-CDG|2027-10-03": {
+    "ops": [
+      "CDG\n\nAY 88, AY 1571 — Operated by Finnair: PVG to HEL, HEL to CDG",
+      "CDG\n\nAY 88 — Operated by Finnair: PVG to HEL",
+      "AY 1575 — Operated by Nordic Reg For Finnair: HEL to CDG",
+      "CDG\n\nAY 88, AY 1577 — Operated by Finnair: PVG to HEL, HEL to CDG"
+    ],
+    "pts": 130000,
+    "tax": 80.8
+  },
+  "PVG-CDG|2027-10-06": {
+    "ops": [
+      "CDG\n\nAY 88, AY 1571 — Operated by Finnair: PVG to HEL, HEL to CDG",
+      "CDG\n\nAY 88 — Operated by Finnair: PVG to HEL",
+      "AY 1575 — Operated by Nordic Reg For Finnair: HEL to CDG",
+      "CDG\n\nAY 88, AY 1577 — Operated by Finnair: PVG to HEL, HEL to CDG"
+    ],
+    "pts": 130000,
+    "tax": 43.8
+  },
+  "PVG-CDG|2027-10-10": {
+    "ops": [
+      "CDG\n\nAY 88, AY 1571 — Operated by Finnair: PVG to HEL, HEL to CDG",
+      "CDG\n\nAY 88 — Operated by Finnair: PVG to HEL",
+      "AY 1575 — Operated by Nordic Reg For Finnair: HEL to CDG",
+      "CDG\n\nAY 88, AY 1577 — Operated by Finnair: PVG to HEL, HEL to CDG"
+    ],
+    "pts": 130000,
+    "tax": 80.8
+  },
+  "CDG-PVG|2026-11-26": {
+    "ops": [
+      "PVG\n\nBA 303, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nBA 323, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nBA 319, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nBA 315, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG"
+    ],
+    "pts": 85000,
+    "tax": 574.7
+  },
+  "CDG-PVG|2026-12-02": {
+    "ops": [
+      "PVG\n\nBA 303, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nBA 323, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nBA 319, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nBA 315, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG"
+    ],
+    "pts": 75000,
+    "tax": 658.0
+  },
+  "CDG-PVG|2026-12-03": {
+    "ops": [
+      "PVG\n\nBA 303, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nBA 323, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nJL 46, JL 89 — Operated by Japan Airlines: CDG to HND, HND to PVG",
+      "PVG\n\nCX 260, CX 316 — Operated by Cathay Pacific: CDG to HKG, HKG to PVG"
+    ],
+    "pts": 75000,
+    "tax": 658.0
+  },
+  "CDG-PVG|2026-12-08": {
+    "ops": [
+      "PVG\n\nBA 323, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nCX 260, CX 368 — Operated by Cathay Pacific: CDG to HKG, HKG to PVG",
+      "PVG\n\nCX 260, CX 376 — Operated by Cathay Pacific: CDG to HKG, HKG to PVG",
+      "PVG\n\nCX 260, CX 360 — Operated by Cathay Pacific: CDG to HKG, HKG to PVG"
+    ],
+    "pts": 130000,
+    "tax": 230.9
+  },
+  "CDG-PVG|2027-01-04": {
+    "ops": [
+      "PVG\n\nBA 319, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nHU 758, HU 7721 — Operated by Hainan Airlines: CDG to SZX, SZX to PVG",
+      "PVG\n\nHU 758, HU 7725 — Operated by Hainan Airlines: CDG to SZX, SZX to PVG",
+      "PVG\n\nHU 758, HU 7727 — Operated by Hainan Airlines: CDG to SZX, SZX to PVG"
+    ],
+    "pts": 85000,
+    "tax": 574.7
+  },
+  "CDG-PVG|2027-02-04": {
+    "ops": [
+      "PVG\n\nJL 46, JL 89 — Operated by Japan Airlines: CDG to HND, HND to PVG",
+      "PVG\n\nMH 21, MH 388 — Operated by Malaysia Airlines: CDG to KUL, KUL to PVG",
+      "PVG\n\nMH 21, MH 386 — Operated by Malaysia Airlines: CDG to KUL, KUL to PVG"
+    ],
+    "pts": 130000,
+    "tax": 225.8
+  },
+  "CDG-PVG|2027-02-25": {
+    "ops": [
+      "PVG\n\nBA 303, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nBA 323, BA 169 — Operated by British Airways: CDG to LHR, LHR to PVG",
+      "PVG\n\nMH 21, MH 386 — Operated by Malaysia Airlines: CDG to KUL, KUL to PVG"
+    ],
+    "pts": 130000,
+    "tax": 262.8
+  },
+  "CDG-PVG|2027-03-04": {
+    "ops": [
+      "PVG\n\nMH 21, MH 386 — Operated by Malaysia Airlines: CDG to KUL, KUL to PVG"
+    ],
+    "pts": 130000,
+    "tax": 230.9
+  },
+  "CDG-PVG|2027-03-09": {
+    "ops": [
+      "PVG\n\nMH 21, MH 386 — Operated by Malaysia Airlines: CDG to KUL, KUL to PVG"
+    ],
+    "pts": 130000,
+    "tax": 262.8
+  },
+  "CDG-PVG|2027-03-10": {
+    "ops": [
+      "PVG\n\nAY 1578, AY 87 — Operated by Finnair: CDG to HEL, HEL to PVG",
+      "PVG\n\nAY 1576 — Operated by Nordic Reg For Finnair: CDG to HEL",
+      "AY 87 — Operated by Finnair: HEL to PVG",
+      "PVG\n\nAY 1572, AY 87 — Operated by Finnair: CDG to HEL, HEL to PVG"
+    ],
+    "pts": 75000,
+    "tax": 201.8
+  },
+  "CDG-PVG|2027-09-01": {
+    "ops": [
+      "PVG\n\nJL 46, JL 85 — Operated by Japan Airlines: CDG to HND, HND to PVG",
+      "PVG\n\nMH 21, MH 388 — Operated by Malaysia Airlines: CDG to KUL, KUL to PVG",
+      "PVG\n\nMH 21, MH 386 — Operated by Malaysia Airlines: CDG to KUL, KUL to PVG"
+    ],
+    "pts": 130000,
+    "tax": 225.8
+  },
+  "HKG-HEL|2027-02-15": {
+    "ops": [
+      "HEL\n\nJL 26, JL 47 — Operated by Japan Airlines: HKG to HND, HND to HEL"
+    ],
+    "pts": 75000,
+    "tax": 74.5
+  },
+  "HKG-HEL|2027-08-02": {
+    "ops": [
+      "HEL\n\nJL 26, JL 47 — Operated by Japan Airlines: HKG to HND, HND to HEL"
+    ],
+    "pts": 75000,
+    "tax": 74.5
+  },
+  "HEL-HKG|2027-02-02": {
+    "ops": [
+      "HKG\n\nJL 48, JL 29 — Operated by Japan Airlines: HEL to HND, HND to HKG"
+    ],
+    "pts": 75000,
+    "tax": 51.4
+  }
+}

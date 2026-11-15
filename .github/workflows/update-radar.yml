@@ -1,0 +1,66 @@
+name: Update Avios Award Radar
+
+on:
+  workflow_dispatch:
+    inputs:
+      routes:
+        description: "要扫描的航线 (逗号分隔，如 PVG-HEL,HEL-PVG,SHA-HND,HND-SHA)"
+        required: false
+        default: "PVG-HEL,HEL-PVG,SHA-HND,HND-SHA,PVG-NRT,NRT-PVG"
+      months:
+        description: "指定月份 (如 2027-03,2027-04；留空默认扫描未来12个月)"
+        required: false
+        default: ""
+      pax:
+        description: "同行人数 (1 或 2)"
+        required: false
+        default: "2"
+  schedule:
+    # 每周一早上 08:00 (北京时间) 自动刷新一次
+    - cron: "0 0 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  scan-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright & Chromium
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Run Avios Oneworld Scanner
+        run: |
+          if [ -n "${{ github.event.inputs.months }}" ]; then
+            python scripts/scan_oneworld_avios.py \
+              --routes "${{ github.event.inputs.routes }}" \
+              --months "${{ github.event.inputs.months }}" \
+              --pax "${{ github.event.inputs.pax }}" \
+              --cabins "Business,Premium,Main"
+          else
+            python scripts/scan_oneworld_avios.py \
+              --routes "${{ github.event.inputs.routes || 'PVG-HEL,HEL-PVG,SHA-HND,HND-SHA,PVG-NRT,NRT-PVG' }}" \
+              --pax "${{ github.event.inputs.pax || '2' }}" \
+              --cabins "Business,Premium,Main"
+          fi
+
+      - name: Rebuild Interactive HTML Radar Dashboard
+        run: python scripts/build_radar_html.py
+
+      - name: Commit and Push Updated Radar Data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ docs/ finnair_award_radar.html
+          git diff --staged --quiet || git commit -m "chore: update Avios award availability radar"
+          git push
