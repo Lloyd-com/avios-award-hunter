@@ -47,7 +47,7 @@ def get_next_12_months() -> list[str]:
 
 async def launch_browser(p):
     if platform.system().lower() == "windows":
-        for ch in ("msedge", "chrome"):
+        for ch in ("chrome", "msedge"):
             try:
                 return await p.chromium.launch(channel=ch, headless=True)
             except Exception:
@@ -249,3 +249,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+

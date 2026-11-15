@@ -1,4 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+data/chrome_profile/
+data/*state*.json
 
